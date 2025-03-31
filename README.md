@@ -1,5 +1,9 @@
 # JSL01 Project Brief: Kanban Board UI Implementation
 
+## Figma Design Link
+
+Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details: [Figma Design](<https://www.figma.com/design/gNQuGWGGRATtjWrAVW8FTC/kanban-task-management-web-app-(Copy)?t=LCTJCuVbTtm8094H-0>)
+
 ## Overview
 
 This project involves developing a **visually accurate and fully responsive Kanban board** that aligns with the provided **Figma design**. The board should be structured into multiple columns and include task cards, a static side panel, and a well-defined theme to ensure a **professional and polished user experience.**

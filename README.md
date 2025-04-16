@@ -10,7 +10,7 @@ This project involves developing a **visually accurate and fully responsive Kanb
 
 ## Before You Begin
 
-Check the project user stories in your student dashboard before you start building.
+**Check the project user stories in your student dashboard** before you start building.
 
 ## Key Objectives
 

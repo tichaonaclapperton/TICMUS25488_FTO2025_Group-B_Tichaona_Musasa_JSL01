@@ -30,6 +30,23 @@ This project involves developing a **visually accurate and fully responsive Kanb
 
 ![Desktop UI](./assets/JSL01-Desktop.png)
 
+## Task Card Text 
+
+### 📝 To Do (4)
+- **Launch Epic Career 🚀**
+- **Conquer React 🧠**
+- **Understand Databases ⚙️**
+- **Crush Frameworks 📗**
+
+### 👟 Doing (2)
+- **Master JavaScript 💛**
+- **Never Give Up 🏆**
+
+### ✅ Done (2)
+- **Explore ES6 Features 🚀**
+- **Have fun 🤯**
+
+
 ## Expected Outcome
 
 The final application will present a **visually cohesive, user-friendly, and responsive Kanban board** that aligns precisely with the provided Figma design. It will include **consistent styling**, **a well-structured layout, and intuitive task organization** to enhance usability across different devices.

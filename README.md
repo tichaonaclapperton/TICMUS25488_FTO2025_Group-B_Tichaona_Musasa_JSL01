@@ -28,7 +28,7 @@ This project involves developing a **visually accurate and fully responsive Kanb
 
 ## 💻 Desktop View
 
-![Desktop UI](./assets/JSL01_Desktop.png)
+![Desktop UI](./assets/JSL01-Desktop.png)
 
 ## Expected Outcome
 

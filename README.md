@@ -2,7 +2,7 @@
 
 ## Figma Design Link
 
-Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details: [Figma Design](<https://www.figma.com/design/gNQuGWGGRATtjWrAVW8FTC/kanban-task-management-web-app-(Copy)?t=LCTJCuVbTtm8094H-0>)
+Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details:
 
 ## Overview
 

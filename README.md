@@ -2,7 +2,7 @@
 
 ## Figma Design Link
 
-Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details:
+Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details: https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenge-1-%7C-JSL?node-id=0-1&t=yngAIXXKnJfH7Jj3-1
 
 ## Overview
 

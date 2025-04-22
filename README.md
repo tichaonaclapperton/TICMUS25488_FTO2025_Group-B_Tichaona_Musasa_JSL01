@@ -1,4 +1,4 @@
-# JSL01 Project Brief: Kanban Board UI Implementation
+# JSL01 Challenge Brief: Kanban Board UI Implementation
 
 ## Figma Design Link
 

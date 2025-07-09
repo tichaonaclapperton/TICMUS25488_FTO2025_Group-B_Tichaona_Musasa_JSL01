@@ -1,0 +1,263 @@
+:root {
+	--light-grey: #828fa3;
+	--background: #ffffff;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(230, 232, 238);
+	width: 100vw;
+	font-family: Plus Jakarta Sans;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100vw;
+}
+
+/* settings that applied to both mobile and desktop */
+
+button {
+	font-style: bold;
+	font-size: 15px;
+	background-color: #635fc7;
+	width: 276px;
+	height: 50px;
+	border: 0;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	color: #ffffff;
+	padding-left: 0;
+}
+
+h4 {
+	color: var(--light-grey);
+	font-size: 12px;
+	line-height: 100%;
+	font-weight: 700;
+	letter-spacing: 2.4px;
+	margin-left: 20px;
+	margin-top: 24px;
+}
+
+#learn {
+	margin-left: 29px;
+	margin-right: 29px;
+	font-size: 15px;
+	font-style: bold;
+	line-height: 100%;
+	font-weight: 700;
+	background-color: var(--background);
+	border-radius: 8px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 19px;
+	font-size: 15px;
+	font-style: bold;
+	line-height: 100%;
+	font-weight: 700;
+	margin-bottom: 20px;
+	box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1015);
+}
+
+/* DONE Column  */
+
+#done-round {
+	background-color: #67e2ae;
+	margin-top: 24px;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+}
+
+/* DOING Column */
+
+.doing-round {
+	margin-top: 24px;
+	background-color: #8471f2;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+/* Tasks container for TODO */
+
+#todo-col {
+	display: flex;
+	margin-left: 29px;
+}
+
+#todo-round {
+	margin-top: 24px;
+	background-color: #49c4e5;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+/* targeting mobile view only */
+
+@media (max-width: 667px) {
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		background-color: #f4f7fd;
+		max-width: 375px;
+	}
+	nav {
+		background-color: var(--background);
+		margin-right: 2px;
+		margin-left: 0;
+		height: 64px;
+	}
+
+	img {
+		width: 112px;
+		height: 24px;
+		margin-top: 20px;
+		margin-left: 29px;
+	}
+
+	.side-bar,
+	h2 {
+		display: none;
+	}
+
+	/* DONE Column mobile */
+	.done {
+		background-color: var(--background);
+		border-radius: 8px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 19px;
+		font-size: 15px;
+		font-style: bold;
+		line-height: 100%;
+		font-weight: 700;
+		margin-bottom: 20px;
+		margin-left: 29px;
+		margin-right: 29px;
+		box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1015);
+	}
+
+	#done-col {
+		display: flex;
+		margin-left: 29px;
+	}
+
+	/* DOING Column */
+
+	.doing {
+		background-color: var(--background);
+		border-radius: 8px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 19px;
+		font-size: 15px;
+		font-style: bold;
+		line-height: 100%;
+		font-weight: 700;
+		margin-bottom: 20px;
+		margin-right: 29px;
+		margin-left: 29px;
+		box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1015);
+	}
+
+	.doing-col {
+		display: flex;
+		margin-left: 29px;
+	}
+}
+
+/* targeting desktop view starting anything  from 667px upwards */
+
+@media (min-width: 667px) {
+	.main-container {
+		max-width: 1440px;
+		height: 1024px;
+		display: grid;
+		grid-template-columns: 300px 1140px;
+	}
+
+	img {
+		margin-top: 29px;
+		width: 112px;
+		height: 24px;
+        margin-left: 34px;
+	}
+    .all-bords{
+        margin-left: 34px;
+    }
+	nav {
+		background-color: var(--background);
+		margin-right: 2px;
+		margin-left: 0;
+	}
+	header {
+		background-color: var(--background);
+		margin-top: 0;
+	}
+	.side-bar {
+		margin-top: 29px;
+	}
+	h2 {
+		padding-top: 29px;
+		margin-left: 29px;
+		margin-top: 0;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 100%;
+		font-style: bold;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: 280px 280px 280px;
+		background-color: #f4f7fd;
+		height: 1024px;
+		margin-top: 2px;
+	}
+	.launch-col {
+		height: 97px;
+	}
+
+	/* DONE Column desktop */
+	.done {
+		background-color: var(--background);
+		border-radius: 8px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 19px;
+		font-size: 15px;
+		font-style: bold;
+		line-height: 100%;
+		font-weight: 700;
+		margin-bottom: 20px;
+		box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1015);
+	}
+
+	#done-col {
+		display: flex;
+	}
+
+	/* DOING Column desktop */
+	.doing {
+		background-color: var(--background);
+		border-radius: 8px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 19px;
+		font-size: 15px;
+		font-style: bold;
+		line-height: 100%;
+		font-weight: 700;
+		margin-bottom: 20px;
+		margin-right: 29px;
+		box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1015);
+	}
+	.doing-col {
+		display: flex;
+	}
+}

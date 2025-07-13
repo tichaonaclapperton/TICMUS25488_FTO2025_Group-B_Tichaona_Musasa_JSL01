@@ -32,6 +32,11 @@ button {
 	padding-left: 0;
 }
 
+button:hover{
+	cursor: pointer;
+	background-color: #67e2ae;
+}
+
 h4 {
 	color: var(--light-grey);
 	font-size: 12px;
